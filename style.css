@@ -11,3 +11,11 @@
 .ds1-page .ds1-empty + .ds1-empty{margin-top:24px}
 
 .project-copy,.system-panel,.project-grid>.project{min-width:0}.uav-photo-preview{max-width:100%;min-width:0}.uav-photo-preview img{max-width:100%}
+
+.pcb-project{grid-column:1/-1}.pcb-project-heading{display:flex;align-items:center;justify-content:space-between;gap:24px}.pcb-project p{max-width:720px}.project-status{color:var(--accent);border:1px solid var(--line);padding:6px 10px;font:11px monospace;letter-spacing:1px;white-space:nowrap}.pcb-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:26px 0}.pcb-overview>div{padding:18px;border:1px solid var(--line);min-width:0}.pcb-overview small{color:var(--accent);font-size:11px}.pcb-overview strong,.pcb-overview span{display:block}.pcb-overview strong{font-size:22px;font-weight:500;margin:6px 0}.pcb-overview span{font-size:13px;color:var(--muted)}@media(max-width:600px){.pcb-project-heading{align-items:flex-start;flex-direction:column;gap:0}.pcb-overview{grid-template-columns:1fr}.pcb-overview>div{padding:14px}.pcb-project-heading h3{margin-bottom:16px}}
+
+.pcb-photo-preview{max-width:460px;background:#080808}.pcb-photos img{object-fit:contain}.pcb-photos a:first-child{background:#080808}
+
+.pcb-schematic-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:16px 0 0}.pcb-schematic-gallery figure{margin:0;min-width:0}.pcb-schematic-gallery a{display:block;background:#fff}.pcb-schematic-gallery img{display:block;width:100%;height:auto}.pcb-schematic-gallery figcaption{color:var(--muted);font-size:13px;margin-top:8px}@media(max-width:500px){.pcb-schematic-gallery{grid-template-columns:1fr}}
+
+.pcb-project .pcb-photo-preview{max-width:100%}.pcb-project .project-status{display:inline-block;margin-bottom:6px}
