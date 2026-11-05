@@ -21,3 +21,5 @@
 .pcb-project .pcb-photo-preview{max-width:100%}.pcb-project .project-status{display:inline-block;margin-bottom:6px}
 
 .robozord-project{grid-column:1/-1}.robozord-project p{max-width:720px}.robozord-preview{max-width:460px;background:#171b1c}.robozord-photos img{object-fit:contain;background:#171b1c}
+
+.project-grid>.pcb-project,.project-grid>.robozord-project{grid-column:auto;display:flex;flex-direction:column}.project-grid>.pcb-project .uav-photo-preview,.project-grid>.robozord-project .uav-photo-preview{max-width:100%;margin-top:20px}.project-grid>.pcb-project .text-button,.project-grid>.robozord-project .text-button{margin-top:auto}.project-grid>.pcb-project .project-status{align-self:flex-start}
