@@ -23,3 +23,7 @@
 .robozord-project{grid-column:1/-1}.robozord-project p{max-width:720px}.robozord-preview{max-width:460px;background:#171b1c}.robozord-photos img{object-fit:contain;background:#171b1c}
 
 .project-grid>.pcb-project,.project-grid>.robozord-project{grid-column:auto;display:flex;flex-direction:column}.project-grid>.pcb-project .uav-photo-preview,.project-grid>.robozord-project .uav-photo-preview{max-width:100%;margin-top:20px}.project-grid>.pcb-project .text-button,.project-grid>.robozord-project .text-button{margin-top:auto}.project-grid>.pcb-project .project-status{align-self:flex-start}
+
+.hero-profile{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:60px;align-items:start;scroll-margin-top:32px}.hero-profile p{max-width:700px;font-size:18px;color:var(--muted);margin:0 0 16px}.hero-profile dl{margin:0}.hero-profile dl>div{grid-template-columns:85px 1fr}.hero-profile dd{font-size:15px}.hero .discipline{margin-top:34px}@media(max-width:800px){.hero-profile{grid-template-columns:1fr;gap:18px}.hero-profile p{font-size:17px}}
+
+.resume-page{padding:65px 5% 80px}.resume-page h1{margin-bottom:28px}.resume-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-bottom:32px}.resume-download{display:inline-block;background:var(--accent);color:var(--bg);padding:13px 20px;font-size:15px}.resume-actions .ds1-back{margin-top:0}.resume-pages{max-width:900px;margin:auto;display:grid;gap:24px}.resume-pages img{display:block;width:100%;height:auto;background:white;border:1px solid var(--line)}
